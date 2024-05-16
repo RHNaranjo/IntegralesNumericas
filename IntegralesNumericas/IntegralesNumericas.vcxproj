@@ -24,6 +24,7 @@
     <ClInclude Include="trapecio.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Pila.cpp" />
   </ItemGroup>

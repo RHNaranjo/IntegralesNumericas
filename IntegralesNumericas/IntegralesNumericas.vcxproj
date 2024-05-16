@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Pila.h" />
     <ClInclude Include="trapecio.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nodo.cpp" />
+    <ClCompile Include="Pila.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

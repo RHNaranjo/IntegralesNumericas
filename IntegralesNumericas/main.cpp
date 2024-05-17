@@ -3,6 +3,8 @@
 //#include "trapecio.h"
 #include "Pila.h"
 
+//holaaa
+
 struct Integral
 {
 	int intervaloA;
@@ -16,8 +18,8 @@ void insertarFuncion(Integral integral)
 	std::string funcion;
 	std::cout << "Escriba su funcion. Use '()' donde sea necesario:" << std::endl;
 	std::getline(std::cin, funcion);
-	int tamaño = funcion.length();
-	for (int i = 0; i < tamaño; i++)
+	int tamaÃ±o = funcion.length();
+	for (int i = 0; i < tamaÃ±o; i++)
 	{
 		return;
 	}
@@ -29,7 +31,7 @@ int main()
 	Integral integral;
 	do
 	{
-		std::cout << "SOLVER INTEGRALES NÚMERICAS\nEliga una opción\n1) Ingrese una función\nResolver mediante:";
+		std::cout << "SOLVER INTEGRALES NÃšMERICAS\nEliga una opciÃ³n\n1) Ingrese una funciÃ³n\nResolver mediante:";
 		std::cout << "2) Trapecio\n3) Ronberg\n4) Simpson\n5) Salir" << std::endl;
 		std::cin >> opc;
 
@@ -59,7 +61,7 @@ int main()
 		}
 		default:
 		{
-			std::cout << "Ingrese un valor válido" << std::endl;
+			std::cout << "Ingrese un valor vÃ¡lido" << std::endl;
 			break;
 		}
 
